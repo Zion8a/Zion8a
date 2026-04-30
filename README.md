@@ -14,15 +14,24 @@ I create practical, reviewable test projects that demonstrate quality thinking, 
 
 ## Featured repos
 
-- QA portfolio journey: https://github.com/Zion8a/qa-career-journey-v2
-- Playwright UI + CI: https://github.com/Zion8a/playwright-ci-starter
-- Postman/Newman API + CI reports: https://github.com/Zion8a/api-testing-newman-ci
-- Java + JUnit + QA docs: https://github.com/Zion8a/mjukvarutestare-start
-- Test techniques demo: https://github.com/Zion8a/test-techniques-demo
+- QA portfolio journey: https://github.com/Zion8a/qa-career-journey-v2  
+  Structured QA portfolio covering test design, bug reporting, API testing, Playwright, CI and a practical Reqtest-based test project.
+
+- Playwright UI + CI: https://github.com/Zion8a/playwright-ci-starter  
+  UI test automation with Playwright, Page Object Model thinking and GitHub Actions.
+
+- Postman/Newman API + CI reports: https://github.com/Zion8a/api-testing-newman-ci  
+  API testing with Postman collections, Newman CLI, HTML/JUnit reports and CI execution.
+
+- Java + JUnit + QA docs: https://github.com/Zion8a/mjukvarutestare-start  
+  Early QA learning repo with Java, JUnit, Maven, GitHub Actions and test documentation.
+
+- Test techniques demo: https://github.com/Zion8a/test-techniques-demo  
+  Test design practice with equivalence partitioning, boundary value analysis and automated examples.
 
 ## Quick review
 
-1. Open `qa-career-journey-v2` for the full QA portfolio
-2. Review the README files and repo structure
-3. Check GitHub Actions runs where available
-4. Explore API, UI and CI examples across the repos
+1. Start with `qa-career-journey-v2` for the full QA portfolio
+2. Review `part-13-practical-test-project` for manual testing, Reqtest workflow, test cases and regression thinking
+3. Open `playwright-ci-starter` for UI automation with Playwright and GitHub Actions
+4. Open `api-testing-newman-ci` for API testing with Postman/Newman and CI reporting
