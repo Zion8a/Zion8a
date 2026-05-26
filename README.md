@@ -24,24 +24,42 @@ I create practical, reviewable test projects that demonstrate quality thinking, 
 
 ### Project Compass
 
-https://github.com/Zion8a/project-compass
+https://github.com/Zion8a/project-compass  
+Live demo: https://project-compass-seven.vercel.app/
 
-Project management MVP built with Next.js, TypeScript and Playwright.
+A project thinking and project management MVP built with Next.js, TypeScript, Tailwind CSS, Playwright and GitHub Actions.
 
-This is my most complete portfolio case so far. It combines product thinking, project structure, manual testing, bug fixing, Playwright end-to-end tests and GitHub Actions CI.
+This is my most complete portfolio case so far. It combines product thinking, project structure, manual testing, bug fixing, Playwright end-to-end tests, GitHub Actions CI and deployment to Vercel.
 
-The project includes:
+Project Compass started as a simple MVP but has grown into a small project platform with support for:
 
-- Project interview
-- Project map
+- Multiple saved projects
+- Active project handling
+- Project members
 - Task board
 - Risk register
 - Decision log
-- Status report
+- Responsibility for tasks, risks and decisions
+- Status report with responsibility overview
+- Copy status report as Markdown
+- Local data persistence with localStorage
 - Manual regression test documentation
 - Documented test strategy
 - Playwright E2E tests
 - GitHub Actions workflow with passing badge
+- Live deployment on Vercel
+
+From a QA perspective, this project shows how I work through a full product and test cycle:
+
+- planning before implementation
+- defining user flows
+- building features incrementally
+- testing manually
+- finding and fixing issues
+- improving unstable tests
+- writing focused Playwright tests
+- running regression before commits
+- documenting progress in Git and README files
 
 ---
 
