@@ -10,152 +10,166 @@ My current main projects are Project Compass and Evidence Transcriber.
 
 ## What I focus on
 
-- Test design: test cases, boundary values, equivalence partitioning and regression thinking
-- Manual testing: exploratory testing, bug reporting, test plans and test summaries
-- UI automation: Playwright, selectors, assertions, user flows and Page Object Model thinking
-- API testing: Postman and Newman, collections, environments, HTML/JUnit reports
-- CI mindset: GitHub Actions for API and UI tests
-- Documentation: QA notes, test plans, test cases, bug reports and README files
-- Programming basics: Java, TypeScript and test automation fundamentals
-
+- Quality Engineering: product risk, user flows, traceability and verification
+- Test design: boundary values, equivalence partitioning, exploratory testing and regression
+- Test automation: Playwright end-to-end testing and reliable CI execution
+- API testing: HTTP/API verification with Postman and Newman
+- Engineering foundations: TypeScript, Git/GitHub, CI/CD, data persistence and debugging
+- AI-assisted QA: using AI for analysis and implementation support, with human review and verification
+- Documentation and evidence: test results, technical decisions, limitations and reproducible project notes
 ---
 
-## Featured repos
+## Featured projects
 
 ### Project Compass
 
-https://github.com/Zion8a/project-compass  
-Live demo: https://project-compass-seven.vercel.app/
+[Repository](https://github.com/Zion8a/project-compass) · [Live demo](https://project-compass-seven.vercel.app/)
 
-A project thinking and project management MVP built with Next.js, TypeScript, Tailwind CSS, Playwright and GitHub Actions.
+Project Compass is a project clarity and project management MVP built with Next.js and TypeScript. It explores how smaller projects can make responsibility, risks, decisions, traceability and current project health visible instead of reducing project work to task tracking alone.
 
-This is my most complete portfolio case so far. It combines product thinking, project structure, manual testing, bug fixing, Playwright end-to-end tests, GitHub Actions CI and deployment to Vercel.
+For me, this is primarily a Quality Engineering project. I use it to develop product thinking, risk-based testing, regression testing, test automation and CI while evolving a real application in small, verifiable steps.
 
-Project Compass started as a simple MVP but has grown into a small project platform with support for:
+Current areas include:
 
-- Multiple saved projects
-- Active project handling
-- Project members
-- Task board
-- Risk register
-- Decision log
-- Responsibility for tasks, risks and decisions
-- Status report with responsibility overview
-- Copy status report as Markdown
-- Local data persistence with localStorage
-- Manual regression test documentation
-- Documented test strategy
-- Playwright E2E tests
-- GitHub Actions workflow with passing badge
-- Live deployment on Vercel
+* Multiple saved projects and active project handling
+* Responsibility for tasks, risks and decisions
+* Risk-to-task and decision-to-task traceability
+* Project Health, Attention Needed and Recommended Next Step
+* Status reporting and Markdown export
+* Playwright end-to-end testing
+* GitHub Actions CI
+* Live deployment on Vercel
 
-From a QA perspective, this project shows how I work through a full product and test cycle:
-
-- planning before implementation
-- defining user flows
-- building features incrementally
-- testing manually
-- finding and fixing issues
-- improving unstable tests
-- writing focused Playwright tests
-- running regression before commits
-- documenting progress in Git and README files
+The current version stores project data locally in the browser using `localStorage`. It is not yet a multi-user application.
 
 ---
 
-### QA portfolio journey
+### Evidence Transcriber
 
-https://github.com/Zion8a/qa-career-journey-v2
+[Repository](https://github.com/Zion8a/evidence-transcriber)
 
-Structured QA portfolio covering test design, bug reporting, API testing, Playwright, CI and a practical Reqtest-based test project.
+Evidence Transcriber is a Windows-first, local-first transcription project built around an evidence-oriented principle:
 
-Start here for the full overview of my QA learning journey and practical testing documentation.
+**preserve the source and raw model output before correcting or interpreting it.**
 
----
+The project separates:
 
-### Playwright UI + CI
+**Source / Original → Raw ASR Transcript → Edited Transcript → future AI Interpretation**
 
-https://github.com/Zion8a/playwright-ci-starter
+The current Student Alpha supports a verified local workflow from M4A import to Swedish transcription, human editing, persistent storage, session reopening and TXT export.
 
-UI test automation with Playwright, Page Object Model thinking and GitHub Actions.
+The project is particularly focused on:
 
-This repo focuses on browser-based smoke tests, selectors, assertions, user flows and CI execution.
+* Local speech recognition with whisper.cpp
+* FFmpeg-based audio preprocessing
+* Preservation of the original source
+* Separation of raw and human-edited transcripts
+* Segment timestamps
+* Persistence and data integrity
+* Failure and recovery behaviour
+* Regression testing of provenance-critical behaviour
+* Verification on the actual Windows target machine
 
----
+The interface is intentionally minimal and runs locally through a browser and local Node.js server. It is not yet a packaged desktop application.
 
-### Postman/Newman API + CI reports
-
-https://github.com/Zion8a/api-testing-newman-ci
-
-API testing with Postman collections, Newman CLI, HTML/JUnit reports and CI execution.
-
-This repo demonstrates API test structure, command-line execution and automated reporting.
-
----
-
-### Java for Testers
-
-https://github.com/Zion8a/java-for-testers
-
-Java basics for software testing and test automation preparation.
-
-This repo contains small Java exercises connected to conditions, methods, logic and test thinking.
+This project gives me a practical environment for exploring both Quality Engineering and the additional quality problems that appear when AI becomes a system component.
 
 ---
 
-### Test techniques demo
+### QA Career Journey
 
-https://github.com/Zion8a/test-techniques-demo
+[Repository](https://github.com/Zion8a/qa-career-journey-v2)
 
-Test design practice with equivalence partitioning, boundary value analysis and automated examples.
+This repository documents the earlier and foundational part of my development in software testing.
+
+It contains practical work with:
+
+* Test design
+* Boundary value analysis and equivalence partitioning
+* Bug reporting
+* Exploratory testing
+* API testing with Postman
+* Newman CLI execution
+* Playwright UI automation
+* Negative scenarios and validation
+* GitHub Actions CI
+* Test documentation
+
+I keep this repository as part of the portfolio because it shows progression from individual testing techniques toward broader Quality Engineering work.
+
+---
+
+## Supporting QA labs
+
+These smaller repositories focus on specific techniques rather than complete products:
+
+* [Playwright UI + CI](https://github.com/Zion8a/playwright-ci-starter) – browser automation, assertions, user flows and CI execution
+* [API Testing with Postman/Newman](https://github.com/Zion8a/api-testing-newman-ci) – API verification, CLI execution and automated reporting
+* [Test Techniques Demo](https://github.com/Zion8a/test-techniques-demo) – equivalence partitioning, boundary value analysis and automated examples
+* [Java for Testers](https://github.com/Zion8a/java-for-testers) – earlier programming exercises connected to testing and automation fundamentals
 
 ---
 
 ## Quick review guide
 
-If you want a fast overview of my work:
+If you only have a few minutes:
 
-1. Start with `project-compass` for a complete MVP with manual and automated testing.
-2. Open `qa-career-journey-v2` for the full structured QA portfolio.
-3. Review the practical test project sections for manual testing, Reqtest workflow, test cases and regression thinking.
-4. Open `playwright-ci-starter` for UI automation with Playwright and GitHub Actions.
-5. Open `api-testing-newman-ci` for API testing with Postman/Newman and CI reporting.
-
----
-
-## Tools and technologies
-
-- Playwright
-- Postman
-- Newman
-- GitHub Actions
-- Git / GitHub
-- Java
-- JUnit
-- TypeScript
-- Next.js
-- VS Code
-- IntelliJ IDEA
-- Windows / PowerShell
+1. Start with **Project Compass** for my main product and Quality Engineering case.
+2. Open **Evidence Transcriber** for my current work with local AI, provenance, data integrity and verification.
+3. Review **QA Career Journey** to see the testing foundations and progression behind the larger projects.
+4. Use the supporting QA labs for focused examples of Playwright, API testing and test design.
 
 ---
 
-## What I want to show with this portfolio
+## Current tools and technologies
 
-This portfolio is built to show practical testing ability, not only course participation.
+### Main engineering and QA work
 
-It demonstrates that I can:
+* TypeScript
+* Playwright
+* Git / GitHub
+* GitHub Actions
+* Next.js
+* Node.js
 
-- Understand a product and its user flows
-- Create and document test cases
-- Perform manual regression testing
-- Find and describe bugs clearly
-- Verify fixes
-- Write automated end-to-end tests
-- Work with API testing
-- Connect tests to CI
-- Use Git commits to document progress
-- Build a structured QA portfolio over time
+### API and test tooling
+
+* Postman
+* Newman
+
+### Local AI and media processing
+
+* whisper.cpp
+* FFmpeg
+
+### Earlier programming foundations
+
+* Java
+* JUnit
+
+I treat tools as means to solve and verify problems rather than as portfolio goals in themselves.
+
+---
+
+## What this portfolio is intended to show
+
+This portfolio documents my development from a software testing student toward broader Quality Engineering work.
+
+The goal is not to present every exercise as a finished product or to suggest that I already know everything I am working toward.
+
+Instead, I want the repositories to provide reviewable evidence of how I am learning to:
+
+* Understand products, users and important risks
+* Design tests around meaningful behaviour
+* Investigate failures and verify fixes
+* Automate important verification
+* Work with persistent data and system state
+* Connect automated testing to CI
+* Build and test software in small, reviewable steps
+* Use AI as an engineering and QA tool while keeping human review and verification explicit
+* Document technical decisions, results, limitations and remaining risks
+
+The progression matters as much as the individual technologies.
 
 ---
 
@@ -163,21 +177,14 @@ It demonstrates that I can:
 
 Before moving into software testing, I worked with sports development, project management, coaching and education.
 
-That background has given me strong experience in:
+That experience continues to influence how I approach technical work: understanding the purpose before choosing the solution, identifying risks early, communicating clearly, working systematically with feedback and improving through repeated verification.
 
-- Structured planning
-- Clear communication
-- Risk awareness
-- Feedback and improvement processes
-- Working with people and teams
-- Long-term development work
-
-I see many similarities between good coaching, good project work and good testing: observing carefully, asking better questions, identifying risks early and helping others improve.
+I am now combining that experience with software testing, automation, programming and Quality Engineering while studying toward my software testing qualification.
 
 ---
 
 ## Contact
 
-Email: johan@bergochhav.nu  
-Location: Stockholm, Sweden  
+Email: [johan@bergochhav.nu](mailto:johan@bergochhav.nu)
+Location: Stockholm, Sweden
 GitHub: https://github.com/Zion8a
