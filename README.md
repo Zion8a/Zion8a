@@ -1,10 +1,10 @@
 # Hi, I'm Johan 👋
 
-Software Testing student building a modern QA portfolio with focus on test design, manual regression testing, API testing, UI automation and CI.
+Software Testing student in Stockholm, developing toward Quality Engineering with a focus on test design, test automation, system quality and critical use of AI.
 
-Based in Stockholm. Open to hybrid/remote QA, software testing and test automation opportunities.
+I build practical, reviewable projects where quality is demonstrated through testing, documented decisions, verification, measured results and known limitations.
 
-I create practical, reviewable test projects that demonstrate quality thinking, structured documentation, automation and continuous integration.
+My current main projects are Project Compass and Evidence Transcriber.
 
 ---
 
