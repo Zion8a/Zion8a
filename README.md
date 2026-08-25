@@ -44,7 +44,7 @@ The current version stores project data locally in the browser using `localStora
 
 ---
 
-### Evidence Transcriber
+## Evidence Transcriber
 
 [Repository](https://github.com/Zion8a/evidence-transcriber)
 
@@ -56,21 +56,21 @@ The project separates:
 
 **Source / Original → Raw ASR Transcript → Edited Transcript → future AI Interpretation**
 
-The current Student Alpha supports a verified local workflow from M4A import to Swedish transcription, human editing, persistent storage, session reopening and TXT export.
+The current application provides a packaged Windows workflow from audio import to Swedish transcription, human editing, persistent storage, session reopening and TXT export.
 
 The project is particularly focused on:
 
-* Local speech recognition with whisper.cpp
-* FFmpeg-based audio preprocessing
-* Preservation of the original source
-* Separation of raw and human-edited transcripts
-* Segment timestamps
-* Persistence and data integrity
-* Failure and recovery behaviour
-* Regression testing of provenance-critical behaviour
-* Verification on the actual Windows target machine
+- Local speech recognition with whisper.cpp
+- FFmpeg-based audio preprocessing
+- Preservation of the original source
+- Separation of raw and human-edited transcripts
+- Segment timestamps
+- Persistence and data integrity
+- Failure and recovery behaviour
+- Regression testing of provenance-critical behaviour
+- Verification on the actual Windows target machine
 
-The interface is intentionally minimal and runs locally through a browser and local Node.js server. It is not yet a packaged desktop application.
+The application is packaged as a Windows desktop application while retaining a local-first architecture.
 
 This project gives me a practical environment for exploring both Quality Engineering and the additional quality problems that appear when AI becomes a system component.
 
