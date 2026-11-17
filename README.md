@@ -4,7 +4,7 @@ Software Testing student in Stockholm, developing toward Quality Engineering wit
 
 I build practical, reviewable projects where quality is demonstrated through testing, documented decisions, verification, measured results and known limitations.
 
-My current main projects are Project Compass and Evidence Transcriber.
+My current main projects are QA Scout, Project Compass and Evidence Transcriber.
 
 ---
 
@@ -20,6 +20,18 @@ My current main projects are Project Compass and Evidence Transcriber.
 ---
 
 ## Featured projects
+
+### QA Scout
+
+[Repository](https://github.com/Zion8a/qa-scout)
+
+QA Scout is my local-first Quality Engineering learning project. It helps a tester inspect an authorized web page, preserve evidence, reproduce observations and prepare a report for human review. A finding is a candidate for investigation; I decide whether it is a bug and what to report.
+
+The TypeScript and Playwright scanner, Edge extension and local review app use controlled checks and explicit tester actions. I use synthetic scenarios to verify the workflows and document what the tests do and do not establish. Coding agents assist with implementation, tests and documentation; I review their changes and make the final project decisions.
+
+The repository README explains how to run the app from source with Node.js 24 and how to load the Edge extension. A separate interactive Testverkstan demo uses synthetic data to illustrate the review process; its public deployment will be linked here after approval.
+
+---
 
 ### Project Compass
 
@@ -114,10 +126,10 @@ These smaller repositories focus on specific techniques rather than complete pro
 
 If you only have a few minutes:
 
-1. Start with **Project Compass** for my main product and Quality Engineering case.
-2. Open **Evidence Transcriber** for my current work with local AI, provenance, data integrity and verification.
-3. Review **QA Career Journey** to see the testing foundations and progression behind the larger projects.
-4. Use the supporting QA labs for focused examples of Playwright, API testing and test design.
+1. Start with **QA Scout** for evidence-led testing, human review and agent-assisted engineering.
+2. Open **Project Compass** for product thinking and Quality Engineering.
+3. Open **Evidence Transcriber** for local AI, provenance, data integrity and verification.
+4. Review **QA Career Journey** and the supporting QA labs for my testing foundations.
 
 ---
 
